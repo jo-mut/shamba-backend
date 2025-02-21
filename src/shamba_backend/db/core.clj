@@ -23,17 +23,68 @@
                        token1_symbol TEXT,                      
                        token1_decimal TEXT)"]))
 
+(defn create-pools-table
+  []
+  (jdbc/execute! -db ["CREATE TABLE IF NOT EXISTS pools (
+                       id SERIAL PRIMARY KEY, 
+                       pool_id TEXT UNIQUE,
+                       token0_symbol TEXT,
+                       token0_id TEXT,
+                       token1_symbol TEXT,                      
+                       token1_id TEXT)"]))
+
 (defn concat-fields
   "Concat field names for SQL"
   [fields]
   (str/join ", " (map name fields)))
 
+(defn insert-pools
+  [pool]
+  (let [{:keys [id token0 token1]} pool
+        token0_id     (:id token0)
+        token0_symbol (:symbol token0)
+        token1_id     (:id token1)
+        token1_symbol (:symbol token1)
+        new-pool      {:token0_id     token0_id
+                       :token0_symbol token0_symbol
+                       :token1_id     token1_id
+                       :token1_symbol token1_symbol
+                       :pool_id       id}
+        columns (str/join ", " (map name (keys new-pool)))
+        placeholders   (str/join ", " (repeat (count new-pool) "?"))
+        sql     (str "INSERT INTO pools ( " columns " ) VALUES (" placeholders ") ON CONFLICT(pool_id) DO NOTHING")]
+    (jdbc/execute! -db (into [sql] (vec (vals new-pool))))))
+
+(defn insert-positions
+  "Insert"
+  [position]
+  (let [{:keys [owner id liquidity]} position
+        fee_tier       (get-in position [:pool :feeTier])
+        token0_symbol  (get-in position [:pool :token0 :symbol])
+        token0_decimal (get-in position [:pool :token0 :decimal])
+        token1_symbol  (get-in position [:pool :token0 :symbol])
+        token1_decimal (get-in position [:pool :token0 :decimal])
+        owner          (str owner)
+        new-position   {:liquidity      liquidity
+                        :position_id    id
+                        :owner          owner
+                        :fee_tier       fee_tier
+                        :token0_symbol  token0_symbol
+                        :token0_decimal token0_decimal
+                        :token1_symbol  token1_symbol
+                        :token1_decimal token1_decimal}
+        columns        (str/join ", " (map name (keys new-position)))
+        placeholders   (str/join ", " (repeat (count new-position) "?"))
+        sql            (str "INSERT INTO positions (" columns ") VALUES (" placeholders ") ON CONFLICT(position_id) DO NOTHING")]
+    (jdbc/execute! -db (into [sql] (vec (vals new-position))))))
+
 (defn insert
-  "Insert to database"
-  [table position]
-  (first (jdbc/insert! -db table position)))
+  "Insert a record to database"
+  [table record]
+  (first (jdbc/insert! -db table record)))
 
 (defn select
-  "Select the database"
-  [table fields]
-  (jdbc/query -db [(str "select " (concat-fields fields) " from " (name table))]))
+  ([table]
+   (jdbc/query -db [(str "select * from " (name table))]))
+  ([table fields]
+   (jdbc/query -db [(str "select " (if fields (concat-fields fields) "*") " from " (name table))])))

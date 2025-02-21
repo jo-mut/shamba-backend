@@ -1,22 +1,22 @@
 (ns shamba-backend.core
   (:require
    [shamba-backend.routes.core :as routes]
-   [shamba-backend.db.core :as db]
+   [shamba-backend.api :as api]
    [compojure.core :refer [defroutes GET POST]]
-   [compojure.route :as route]
-   [cheshire.core :as json]
    [dotenv :refer [env]]
    [org.httpkit.server :as server]
    [ring.middleware.json :as js]
    [ring.middleware.defaults :refer [wrap-defaults api-defaults]]))
 
 (defroutes app-routes
-  (GET "/" [] routes/positions))
+  (GET "/" [] routes/positions)
+  (GET "/pools" [] routes/pools))
 
 (defn -main
   "Production"
   [& args]
-  (db/create-positions-table)
+  (api/create-tables)
+  (api/save-uniswap-data)
   (let [port  (Integer/parseInt (or (env :PORT) "3000"))]
     (server/run-server
      (js/wrap-json-params

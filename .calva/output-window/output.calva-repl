@@ -1,0 +1,20 @@
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:56193 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(select)
+; Syntax error compiling at (output.calva-repl:17:1).
+; Unable to resolve symbol: select in this context
+clj꞉shamba-backend.core꞉> 
