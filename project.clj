@@ -14,6 +14,7 @@
                   ; Ring defaults - for query params etc
                  [ring/ring-defaults "0.3.4"]
                  [ring/ring-devel "1.6.3"]
+                 [ring-cors "0.1.13"]
                  [ring/ring-json "0.5.0"] 
                  [lynxeyes/dotenv "1.0.2"]]
   :main ^:skip-aot shamba-backend.core

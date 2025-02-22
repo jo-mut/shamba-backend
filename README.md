@@ -1,6 +1,6 @@
 # shamba-backend
 
-FIXME
+This is the backend for shamba https://github.com/jo-mut/shamba. It is still an on-going project and therefore will be updated as development progresses
 
 ## Prerequisites
 

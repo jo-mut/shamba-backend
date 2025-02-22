@@ -1,6 +1,5 @@
 (ns shamba-backend.routes.core
   (:require
-   [shamba-backend.db.core :as db]
    [shamba-backend.api :as api]))
 
 (defn echo-route
@@ -22,4 +21,4 @@
   [req]
   {:status  200
    :headers {"Content-Type" "application/json"}
-   :body    (-> (api/get-positions (:params req)))})
+   :body    (-> (api/get-positions))})

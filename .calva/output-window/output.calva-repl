@@ -1,3 +1,35 @@
+; This is the Calva REPL Window.
+; It's just a file, really, with some special treatment from Calva.
+; Use it as a REPL input prompt if you like. (When the REPL is connected.)
+; TIPS: The keyboard shortcut `ctrl+alt+o r` shows and focuses this window
+; Please see https://calva.io/repl-window/ for more info.
+; Happy coding! ♥️
+
+; TIPS: As with any Clojure file when the REPL is connected:
+; - `alt+enter` evaluates the current top level form.
+; - `ctrl+enter` evaluates the current form.
+; Special for this file:
+; - `alt+up` and `alt+down` traverse up and down the REPL command history
+;    when the cursor is after the last contents at the prompt
+; 
+; See also the Calva Inspector: https://calva.io/inspector/
+
+PLEASE NOTE
+We will update the default location of this file.
+The new default location will be
+  "<projectRootPath>/.calva/repl.calva-repl"
+For now the legacy path is used by default.
+To give yourself a smooth transition, you can opt in
+to the change, by configuring this setting as false:
+  "calva.useLegacyReplWindowPath"
+and then add "**/.calva/repl.calva-repl" to your ".gitignore" file.
+
+
+This file is configured as the output destination for all REPL output.
+You can configure this with the setting:
+  "calva.outputDestinations"
+
+
 ; Jacking in...
 ; Connecting using "Leiningen" project type.
 ; You can make Calva auto-select this.
@@ -5,16 +37,326 @@
 ; 
 
 ; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:56193 ...
+; Using host:port 127.0.0.1:58707 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
 nil
 clj꞉shamba-backend.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉shamba-backend.core꞉> 
 ; Jack-in done.
 clj꞉shamba-backend.core꞉> 
-(select)
-; Syntax error compiling at (output.calva-repl:17:1).
+(select :positions)
+; Syntax error compiling at (output.calva-repl:51:1).
 ; Unable to resolve symbol: select in this context
+clj꞉shamba-backend.core꞉> 
+(pools)
+; Syntax error compiling at (output.calva-repl:55:1).
+; Unable to resolve symbol: pools in this context
+clj꞉shamba-backend.core꞉> 
+(select)
+; Syntax error compiling at (output.calva-repl:59:1).
+; Unable to resolve symbol: select in this context
+clj꞉shamba-backend.core꞉> (select :positions)
+; Syntax error compiling at (output.calva-repl:62:27).
+; Unable to resolve symbol: select in this context
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as bd])
+nil
+clj꞉shamba-backend.core꞉> 
+(bd/select :positions)
+({:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "383995753785830744",
+  :id 1,
+  :position_id "1",
+  :owner "0x50ec05ade8280758e2077fcbc08d878d4aef79c3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "SOCKS",
+  :liquidity "39095558843543104",
+  :id 2,
+  :position_id "10",
+  :owner "0xea23c259b637f72d80697d4a4d1302df9f64530b",
+  :token0_symbol "SOCKS",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "DAI",
+  :liquidity "464824267666178749",
+  :id 3,
+  :position_id "100",
+  :owner "0xb650131a49cb1193a359c2674e3564eb366fcfaf",
+  :token0_symbol "DAI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "WETH",
+  :liquidity "8624291877397",
+  :id 4,
+  :position_id "1000",
+  :owner "0xb2ef52180d1e5f4835f4e343251286fa84743456",
+  :token0_symbol "WETH",
+  :fee_tier "500"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "WETH",
+  :liquidity "1143323808949",
+  :id 5,
+  :position_id "10000",
+  :owner "0x0d047a6e47c74bd69de344d030e695f244767066",
+  :token0_symbol "WETH",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "0",
+  :id 6,
+  :position_id "100000",
+  :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "0",
+  :id 7,
+  :position_id "100001",
+  :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "Metis",
+  :liquidity "0",
+  :id 8,
+  :position_id "100002",
+  :owner "0xc16cef3de4b992a613c9c604dac9b154f9e16a54",
+  :token0_symbol "Metis",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "0",
+  :id 9,
+  :position_id "100003",
+  :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "WETH",
+  :liquidity "0",
+  :id 10,
+  :position_id "100004",
+  :owner "0x4a2a8985f6fe115051a1b1bf3aa3500d635ac610",
+  :token0_symbol "WETH",
+  :fee_tier "3000"})
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.api :as api])
+nil
+clj꞉shamba-backend.core꞉> 
+(api/get-positions)
+; Execution error (ArityException) at shamba-backend.core/eval10562 (form-init4243770574053313950.clj:164).
+; Wrong number of args (1) passed to: shamba-backend.api/get-positions
+clj꞉shamba-backend.core꞉> 
+(api/get-positions)
+({:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "383995753785830744",
+  :id 1,
+  :position_id "1",
+  :owner "0x50ec05ade8280758e2077fcbc08d878d4aef79c3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "SOCKS",
+  :liquidity "39095558843543104",
+  :id 2,
+  :position_id "10",
+  :owner "0xea23c259b637f72d80697d4a4d1302df9f64530b",
+  :token0_symbol "SOCKS",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "DAI",
+  :liquidity "464824267666178749",
+  :id 3,
+  :position_id "100",
+  :owner "0xb650131a49cb1193a359c2674e3564eb366fcfaf",
+  :token0_symbol "DAI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "WETH",
+  :liquidity "8624291877397",
+  :id 4,
+  :position_id "1000",
+  :owner "0xb2ef52180d1e5f4835f4e343251286fa84743456",
+  :token0_symbol "WETH",
+  :fee_tier "500"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "WETH",
+  :liquidity "1143323808949",
+  :id 5,
+  :position_id "10000",
+  :owner "0x0d047a6e47c74bd69de344d030e695f244767066",
+  :token0_symbol "WETH",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "0",
+  :id 6,
+  :position_id "100000",
+  :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "0",
+  :id 7,
+  :position_id "100001",
+  :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "Metis",
+  :liquidity "0",
+  :id 8,
+  :position_id "100002",
+  :owner "0xc16cef3de4b992a613c9c604dac9b154f9e16a54",
+  :token0_symbol "Metis",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "UNI",
+  :liquidity "0",
+  :id 9,
+  :position_id "100003",
+  :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+  :token0_symbol "UNI",
+  :fee_tier "3000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "WETH",
+  :liquidity "0",
+  :id 10,
+  :position_id "100004",
+  :owner "0x4a2a8985f6fe115051a1b1bf3aa3500d635ac610",
+  :token0_symbol "WETH",
+  :fee_tier "3000"})
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.routes.core :as routes])
+nil
+clj꞉shamba-backend.core꞉> 
+(routes/positions)
+; Execution error (ArityException) at shamba-backend.core/eval10568 (form-init4243770574053313950.clj:263).
+; Wrong number of args (0) passed to: shamba-backend.routes.core/positions
+clj꞉shamba-backend.core꞉> 
+(routes/positions {})
+; positions
+{:status 200,
+ :headers {"Content-Type" "application/json"},
+ :body
+ ({:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "UNI",
+   :liquidity "383995753785830744",
+   :id 1,
+   :position_id "1",
+   :owner "0x50ec05ade8280758e2077fcbc08d878d4aef79c3",
+   :token0_symbol "UNI",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "SOCKS",
+   :liquidity "39095558843543104",
+   :id 2,
+   :position_id "10",
+   :owner "0xea23c259b637f72d80697d4a4d1302df9f64530b",
+   :token0_symbol "SOCKS",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "DAI",
+   :liquidity "464824267666178749",
+   :id 3,
+   :position_id "100",
+   :owner "0xb650131a49cb1193a359c2674e3564eb366fcfaf",
+   :token0_symbol "DAI",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "WETH",
+   :liquidity "8624291877397",
+   :id 4,
+   :position_id "1000",
+   :owner "0xb2ef52180d1e5f4835f4e343251286fa84743456",
+   :token0_symbol "WETH",
+   :fee_tier "500"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "WETH",
+   :liquidity "1143323808949",
+   :id 5,
+   :position_id "10000",
+   :owner "0x0d047a6e47c74bd69de344d030e695f244767066",
+   :token0_symbol "WETH",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "UNI",
+   :liquidity "0",
+   :id 6,
+   :position_id "100000",
+   :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+   :token0_symbol "UNI",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "UNI",
+   :liquidity "0",
+   :id 7,
+   :position_id "100001",
+   :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+   :token0_symbol "UNI",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "Metis",
+   :liquidity "0",
+   :id 8,
+   :position_id "100002",
+   :owner "0xc16cef3de4b992a613c9c604dac9b154f9e16a54",
+   :token0_symbol "Metis",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "UNI",
+   :liquidity "0",
+   :id 9,
+   :position_id "100003",
+   :owner "0xa8ebe1eed676d5bfeb7f7b5933625281489af8a3",
+   :token0_symbol "UNI",
+   :fee_tier "3000"}
+  {:token1_decimal nil,
+   :token0_decimal nil,
+   :token1_symbol "WETH",
+   :liquidity "0",
+   :id 10,
+   :position_id "100004",
+   :owner "0x4a2a8985f6fe115051a1b1bf3aa3500d635ac610",
+   :token0_symbol "WETH",
+   :fee_tier "3000"})}
 clj꞉shamba-backend.core꞉> 
