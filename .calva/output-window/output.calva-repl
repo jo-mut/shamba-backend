@@ -800,3 +800,921 @@ clj꞉shamba-backend.core꞉> 
  "{\"data\":{\"positions\":[{\"id\":\"919305\",\"liquidity\":\"21838051806460262040786798919121472\",\"owner\":\"0x86c37f3d42e29d33093918bdcb67e87813e5f027\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"MUMU\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"908423\",\"liquidity\":\"18333944448008399084944013811900085\",\"owner\":\"0xcddebbad367956f2bf3e6c668085b4884669e717\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WCAW\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"CAW\"}}},{\"id\":\"114444\",\"liquidity\":\"11114450057194205771809438988582841\",\"owner\":\"0xabb9d90f78b55013c5cea9e91c9419ddff4fc0ac\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"nana\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"40589\",\"liquidity\":\"10459723782139312351123351992955751\",\"owner\":\"0x7d5f6049014e67f16c16335374d65370fcba34e1\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"MUSA\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"551739\",\"liquidity\":\"8951206311127302358942437314972130\",\"owner\":\"0x3682d5283c21d90054dc49c60ab2aa948eaa849b\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"INU\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"695381\",\"liquidity\":\"4569786313414082963335217465661671\",\"owner\":\"0xd4c5935432c98a08c53b62dcbb0c5cdd54ed7f65\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"SURE\"}}},{\"id\":\"551725\",\"liquidity\":\"3670507295185597971712251784742383\",\"owner\":\"0x3682d5283c21d90054dc49c60ab2aa948eaa849b\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"INU\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"535817\",\"liquidity\":\"3593244358397373658904939781161045\",\"owner\":\"0x30b2ce69b8169b6e480fd0ee734e8a454bc8efc2\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"PADS\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"517733\",\"liquidity\":\"3573926888131506318198357818074755\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"RAP\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"615317\",\"liquidity\":\"3162443782671143444932499270918444\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"BM\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"41261\",\"liquidity\":\"2032209333937888030579013479745504\",\"owner\":\"0xbd2f670afcaf98b939203173a4370d71c75963f8\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"DOGGE\"}}},{\"id\":\"65266\",\"liquidity\":\"1907855112094752544864253485599904\",\"owner\":\"0x0797a0bd634e0949be80d49b4bc3e7225f02d747\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"BBAC\"}}},{\"id\":\"456891\",\"liquidity\":\"1899362897104750021579278405461346\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"I\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"79240\",\"liquidity\":\"1061529810167122922185668885105454\",\"owner\":\"0x06773ae9559a0e0c8dba89d3cd4f7eac74b225b8\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"CVA\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"512517\",\"liquidity\":\"1053822897413235041543667085103608\",\"owner\":\"0x9d7045826757ba3ca63853c65fe3abe4d85cfb7d\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"buy\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"695376\",\"liquidity\":\"1043643037057642972207933227291818\",\"owner\":\"0x30c58bfbee13852b3202403ab02df16f01053370\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"SURE\"}}},{\"id\":\"515040\",\"liquidity\":\"1000000315454546199685516816930531\",\"owner\":\"0x06282a8bab071edb4a982ea0a099fb548e2fc6ca\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"JOJO\"}}},{\"id\":\"769339\",\"liquidity\":\"917307712291282880214205376362700\",\"owner\":\"0x007f999778803a7120b5a944f8050e324a478c41\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"KAMALA HARRIS\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"707955\",\"liquidity\":\"685943123591578220337540297594736\",\"owner\":\"0x00d9d2cbd94f4a34eb22350fec2f9ee2d5971f89\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"bmoney\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"asiandoghat\"}}},{\"id\":\"559803\",\"liquidity\":\"510728853959271560808490983473345\",\"owner\":\"0xf363255672795a27aebfdbb53a484cfa59a10433\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"CRG\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"535194\",\"liquidity\":\"490458022604088941927797215772618\",\"owner\":\"0x9f0176a1fcae8ec01769300a8fbcc0782dcbf8d0\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WSHIB\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"78353\",\"liquidity\":\"362316228220951401962491512249293\",\"owner\":\"0x4a34753ec089481093219aa559f87ba69f7988d9\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"FEAR\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"41216\",\"liquidity\":\"203220933393788803057901347974550\",\"owner\":\"0xd7547045605822b3ab6f692e48c1f8293a93c6db\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"DOGGE\"}}},{\"id\":\"606989\",\"liquidity\":\"169631102230414395802663863617084\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"FUQ\"}}},{\"id\":\"561850\",\"liquidity\":\"118581395822262111687274419580909\",\"owner\":\"0x54aa2aee6cb47031df9ef4ac3cd894a5710d4c3a\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"16\",\"symbol\":\"BShark\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"85739\",\"liquidity\":\"116910881611972601737580484260177\",\"owner\":\"0x276611dd85c726508e844e793aba9ca0fab1f479\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"AQUAFF\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"520081\",\"liquidity\":\"111066073042692922662566641563101\",\"owner\":\"0xf1b964b0a30c7b631f49780c17a091e935723521\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"SANO\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"519515\",\"liquidity\":\"97743637239488338486118579008396\",\"owner\":\"0xad583336957e31ec0b18f8792caaa471edc70b1c\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"$MONG\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"$HAMSTR\"}}},{\"id\":\"480431\",\"liquidity\":\"80679519220907019394360208584860\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"ARTSTIC\"}}},{\"id\":\"548340\",\"liquidity\":\"69435927124770558406125744395124\",\"owner\":\"0xaad07879ba72b7522e830b8db998406445e4bff3\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"TVIN\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"435607\",\"liquidity\":\"63247155204488401085353361851299\",\"owner\":\"0x3912265d37e764e05f2f5b331620f88e190eabbf\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"FIND\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"806650\",\"liquidity\":\"55892097689188890025159317552008\",\"owner\":\"0x000000000000000000000000000000000000dead\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"EDOGE\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"829000\",\"liquidity\":\"34688993675787388469564566276111\",\"owner\":\"0x253960909f5f08bcac49af4dc3b2feacb5522d63\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"ZIN\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"855284\",\"liquidity\":\"32520598432995095964423778549482\",\"owner\":\"0x7738c8981061c3e8bba15dc74e2c6b7e3154a8e6\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"CHEEMS\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"898684\",\"liquidity\":\"29667764084850264223695485120615\",\"owner\":\"0x034da603c84c4ac22ca96cf269ec835bd0811405\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"QCAT\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"867182\",\"liquidity\":\"26188048668486132704846511154542\",\"owner\":\"0xfd235968e65b0990584585763f837a5b5330e6de\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"KEKE\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"540037\",\"liquidity\":\"25547924113199063286795230022962\",\"owner\":\"0x81ae99ed21834e23c3dce2b2290317df515c954e\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"5\",\"symbol\":\"GOLD\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"615276\",\"liquidity\":\"24499666078564730908328026897184\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"XMAS\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"519983\",\"liquidity\":\"22888548328893551524960024483272\",\"owner\":\"0xf1b964b0a30c7b631f49780c17a091e935723521\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"SANO\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"ITSUKI\"}}},{\"id\":\"518393\",\"liquidity\":\"20169945356758193934785553784443\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"P\"}}},{\"id\":\"922635\",\"liquidity\":\"20021501487488125585901171157808\",\"owner\":\"0xac9380e09fe303d5860088095ed40b2a41e89915\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WLFI\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"wWLFI\"}}},{\"id\":\"565814\",\"liquidity\":\"19721114255886288179744111990010\",\"owner\":\"0xd4212e524758e9e16e056b4ca6fdd6e723164632\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"FERRARI\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"557075\",\"liquidity\":\"18240277634326276920098529855802\",\"owner\":\"0xf819fbf3478d1680ba5885369c515e7bbad58708\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"FLRBRG\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"356207\",\"liquidity\":\"17972277101578745145126058878184\",\"owner\":\"0xc7233627c65f0dd1465938212a3adaa5dea50bf6\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"4\",\"symbol\":\"SAPG\"},\"token1\":{\"decimals\":\"4\",\"symbol\":\"SAP\"}}},{\"id\":\"926188\",\"liquidity\":\"16587808838913036798319875264423\",\"owner\":\"0x4815e13640c2046b12900de69e5ebbdfa7c96785\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"798748\",\"liquidity\":\"15479112352198815027865248675297\",\"owner\":\"0xf632830dc07950fe764d0cb720a6946bafea4109\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"GONER\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"569689\",\"liquidity\":\"10537361212933501634542348545707\",\"owner\":\"0xcec8722b5e3cde4467c2b06dff722485fb3e5969\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"MOJO\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"114399\",\"liquidity\":\"10099994395398927060622611036342\",\"owner\":\"0xabb9d90f78b55013c5cea9e91c9419ddff4fc0ac\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"nana\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"18543\",\"liquidity\":\"8704250310115543241875465102128\",\"owner\":\"0x7095e477ba90018bc1efb7e267590d8d6460aab1\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"9\",\"symbol\":\"TERR\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"922954\",\"liquidity\":\"8417274580987748876477912936191\",\"owner\":\"0x619095a53ed0d1058db530ccc04ab5a1c2ef0cd5\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"928334\",\"liquidity\":\"6149884309895309240813611879730\",\"owner\":\"0x8764633f85f18db033ae7ea4a9c9812e4020ce4f\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"933936\",\"liquidity\":\"4952888527789831458365473090616\",\"owner\":\"0x97d1ee0722026304663e3ff92ab3e8df93031d53\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"557068\",\"liquidity\":\"4700089842167464129266481964036\",\"owner\":\"0xcf208e8b39806a8ffd1504ebaf18b570b26b1e1e\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"FLRBRG\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"514225\",\"liquidity\":\"4349209092591639566537609674153\",\"owner\":\"0x4fe1b1f63987d19a0d3245cb3ab6783c3afcd981\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"Kaizen\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"750401\",\"liquidity\":\"4315135860228081325077023718054\",\"owner\":\"0xfd235968e65b0990584585763f837a5b5330e6de\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"TANUKI\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"542314\",\"liquidity\":\"4228179897183246861736781302193\",\"owner\":\"0xcd8f2f0722166074f21f5d93ba0b1d1b87844a7b\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"SEETHE\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"COPE\"}}},{\"id\":\"522424\",\"liquidity\":\"3941737118131121431700968198573\",\"owner\":\"0x21a8549a4f422b9fa1934a9a5c5deabd2403857f\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"Calimero With Sombrero\"}}},{\"id\":\"933939\",\"liquidity\":\"3908766277827571765385761688244\",\"owner\":\"0x8e4698c092308a32afcc21ac928144dd63eb41b8\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"679293\",\"liquidity\":\"3699634384097232140577603196926\",\"owner\":\"0xbe6bfeee186d4784ad78acf09027f41ba55b7456\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"01AI\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"535348\",\"liquidity\":\"3234854187789963223136418200016\",\"owner\":\"0xc75526f6364782aa6df119b1127ddccca24ffb6f\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"TATA\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"846231\",\"liquidity\":\"2816545175113250826803458704781\",\"owner\":\"0x32e738e5cb8d8c3ffd4cf5a7fd1b772371af58f1\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"Frogs\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"615284\",\"liquidity\":\"2431546185469707565374759560593\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"BM\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"593538\",\"liquidity\":\"2412660517693747132608316590946\",\"owner\":\"0xf9f7dd4e62ac358a3c4192c6c2f53794f413f661\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"REEY\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"814910\",\"liquidity\":\"2281177719198367735849117900877\",\"owner\":\"0x5b0ecd57280dedaa8f97b245368077a16fd7fae4\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"9\",\"symbol\":\"ROLL\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"802236\",\"liquidity\":\"2202389145855146782295493201623\",\"owner\":\"0x909ba3a03ff717c12ebb70de01627967f959b3db\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"AKITO\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"908883\",\"liquidity\":\"2183135950976456982229922117199\",\"owner\":\"0x2edfa5ddc13990418704097c20f27d7d2a3b0997\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"DRAGONX\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"511367\",\"liquidity\":\"2171848773711668591863222901783\",\"owner\":\"0xd81ab0ad29aefe68f5e119aca9b9dfdbae33994c\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"BRENT\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"832165\",\"liquidity\":\"2148701200912663609363632405039\",\"owner\":\"0x2bb7fe1588fce0e6b69ec23a82dd210385d57f4d\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"STI\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"564311\",\"liquidity\":\"2098177377836355379391611852662\",\"owner\":\"0x0a95982718b945654c7e0da37bb30cab53619d49\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"DDNA\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"711934\",\"liquidity\":\"2000149998750062496094023093978\",\"owner\":\"0xcd765442a0e84c509e62ea2ad5b16f00849e20a7\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"LD0\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"LDO\"}}},{\"id\":\"384595\",\"liquidity\":\"1865077720984033420974304529843\",\"owner\":\"0xb3fe5af77f5cd203c482669854788f3a54c83340\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"8\",\"symbol\":\"SKYDOGE\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"862136\",\"liquidity\":\"1790225606319692600051586117827\",\"owner\":\"0xb23e4787e9745b5b3f8e552f42f5618d4bf603db\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"859608\",\"liquidity\":\"1658379761357043415996424051557\",\"owner\":\"0xa73b70a45368f343d109187b1756ef705d3ff1e7\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"384593\",\"liquidity\":\"1598568830963524438379071335378\",\"owner\":\"0xb3fe5af77f5cd203c482669854788f3a54c83340\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"8\",\"symbol\":\"SKYDOGE\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"384592\",\"liquidity\":\"1534566578216951283641716321932\",\"owner\":\"0xb3fe5af77f5cd203c482669854788f3a54c83340\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"8\",\"symbol\":\"SKYDOGE\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"685079\",\"liquidity\":\"1094009671332449940373869041919\",\"owner\":\"0x1012324537678ad4afccb99f08d92e151396830e\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"QP\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"23740\",\"liquidity\":\"1079744315980774563376010100558\",\"owner\":\"0xe0d34cbd0fd18d86f5d0e4bcbb487328a7d43b5d\",\"pool\":{\"feeTier\":\"500\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"MOONCAT\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"802358\",\"liquidity\":\"1034677811199224214580331477162\",\"owner\":\"0x469d4421e72d08215178c09a8a6b46de332d5544\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"AKITO\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"761874\",\"liquidity\":\"1017627891380011570470925748835\",\"owner\":\"0xb9c1e281e2a5e455c037705581784363f122e931\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"RNNT\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"16737\",\"liquidity\":\"989807109839095595159405375933\",\"owner\":\"0x077487a3b654cc3f386338d80195bb07b91be219\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"Dobi\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"269466\",\"liquidity\":\"960052798935057429518165265846\",\"owner\":\"0x1df544f4be422abbf8a2f5af22e0c79c8108b2f0\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"HMB\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"HMB\"}}},{\"id\":\"20995\",\"liquidity\":\"951152918399304792063072295646\",\"owner\":\"0xbd4f8c6fc843ee6fadaf2c9fc30676bc17f1adb7\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"PALES\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"563694\",\"liquidity\":\"924318546908724185758950836299\",\"owner\":\"0x600f0238cc44171c757ce6f8bbc0fe1d45d86289\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"WETH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"BTC/PUNK\"}}},{\"id\":\"830570\",\"liquidity\":\"906415971836216235644540721169\",\"owner\":\"0x52c1cc79fbbef91d3952ae75b1961d08f0172223\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"HYPER\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"525226\",\"liquidity\":\"902006378416272582149715936405\",\"owner\":\"0x6478c5c8745c0ced2338f328747526f1e28979e4\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"KAKAKA\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"658570\",\"liquidity\":\"899040181757876218972461651156\",\"owner\":\"0x02781a92490271eba32934c8ca5c535080cca704\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"SDEX\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"EDOGE\"}}},{\"id\":\"456148\",\"liquidity\":\"886318691688261563089568448442\",\"owner\":\"0xbc68cccaaa48846bbe6941eb474970d65342eb5f\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"XEN\"},\"token1\":{\"decimals\":\"8\",\"symbol\":\"XUSD\"}}},{\"id\":\"920777\",\"liquidity\":\"809508015014115344232788360390\",\"owner\":\"0x79bdf1202ee4743e2a2f19a09c99806a3144a03a\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"FUSD\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"USDH\"}}},{\"id\":\"922807\",\"liquidity\":\"764843890715624268319153380473\",\"owner\":\"0xf4bf5226d75ab41b9b588383c65549157b50f397\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"HYPER\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"830525\",\"liquidity\":\"725572633922954911923427279077\",\"owner\":\"0x52c1cc79fbbef91d3952ae75b1961d08f0172223\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"DRAGONX\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"909950\",\"liquidity\":\"693663308211780563608804994703\",\"owner\":\"0x2edfa5ddc13990418704097c20f27d7d2a3b0997\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"DRAGONX\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"HYDRA\"}}},{\"id\":\"165910\",\"liquidity\":\"636840634600162145840036393889\",\"owner\":\"0x8fb9ecfa52830aeea3c05fc5fc896444babe6032\",\"pool\":{\"feeTier\":\"100\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"INTAID\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"331842\",\"liquidity\":\"600190072303469158916559891366\",\"owner\":\"0xe9952c3090a1b3d07088bdbcc306e256106af3d5\",\"pool\":{\"feeTier\":\"3000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"SQZTH\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"WETH\"}}},{\"id\":\"929579\",\"liquidity\":\"598826066036275892570281401107\",\"owner\":\"0x113eda84154dac121b402efe0b2971cbb3fa9270\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"DRAGONX\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"HYDRA\"}}},{\"id\":\"877719\",\"liquidity\":\"598826066036275892570281401107\",\"owner\":\"0xb67ff04cb4735156ad59f65356bfbbf59c6993f1\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"DRAGONX\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"HYDRA\"}}},{\"id\":\"837121\",\"liquidity\":\"576244022929744626872820006398\",\"owner\":\"0x1db7c4c339cef34016a92041e10dad8b4c8c865f\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"PNDC\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"PORK\"}}},{\"id\":\"931696\",\"liquidity\":\"546988518953501914215048564185\",\"owner\":\"0x8764633f85f18db033ae7ea4a9c9812e4020ce4f\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}},{\"id\":\"924685\",\"liquidity\":\"537758553075318339005901199705\",\"owner\":\"0xbf3f75a65904065f433201ecb0109b5747035f88\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"PNDC\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"PORK\"}}},{\"id\":\"919726\",\"liquidity\":\"525495990628928240109752720356\",\"owner\":\"0x9530f94c148bdd1c060dea34196d4216b06f5db9\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"PNDC\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"PORK\"}}},{\"id\":\"858809\",\"liquidity\":\"518267351618512288408163690193\",\"owner\":\"0xb2612a7ed39b52402de30e1e6387bff9a2f22c01\",\"pool\":{\"feeTier\":\"10000\",\"token0\":{\"decimals\":\"18\",\"symbol\":\"X28\"},\"token1\":{\"decimals\":\"18\",\"symbol\":\"TITANX\"}}}]}}",
  :trace-redirects []}
 clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+(require '[]); Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58634 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools); Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58657 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 0)
+; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2674).
+; ERROR: column "id" does not exist
+;   Position: 27
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58704 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 1)
+; Execution error (PSQLException) at org.postgresql.core.v3.SimpleParameterList/checkAllParametersSet (SimpleParameterList.java:284).
+; No value specified for parameter 1.
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58726 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 1)
+; Execution error (ClassCastException) at shamba-backend.db.core/select (core.clj:46).
+; class java.lang.Long cannot be cast to class clojure.lang.Named (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.Named is in unnamed module of loader 'app')
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58738 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 3)
+; Execution error (ClassCastException) at shamba-backend.db.core/select (core.clj:46).
+; class java.lang.Long cannot be cast to class clojure.lang.Named (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.Named is in unnamed module of loader 'app')
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58767 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 1)
+; Execution error (ClassCastException) at shamba-backend.db.core/select (core.clj:46).
+; class java.lang.Long cannot be cast to class clojure.lang.Named (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.Named is in unnamed module of loader 'app')
+clj꞉shamba-backend.core꞉> 
+(db/select :pools)
+({:id 1,
+  :pool_id "0x082849b66a027e8f982ca70b15768645d83a0fb5",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "PEACE",
+  :token1_id "0xfec3ae8aa041c956a906e30108032e3e0d7bfd2c"}
+ {:id 2,
+  :pool_id "0x0829cef3790c3efe3336d31ca8c5ddb176ce3ad8",
+  :token0_symbol "MENI",
+  :token0_id "0x45df7263bbcb82b78c2e7652e550485564a6d5e2",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 3,
+  :pool_id "0x082eb122f23802e0375086d966b8a5496e03266c",
+  :token0_symbol "🐟",
+  :token0_id "0x30bcd71b8d21fe830e493b30e90befba29de9114",
+  :token1_symbol "DAI",
+  :token1_id "0x6b175474e89094c44da98b954eedeac495271d0f"}
+ {:id 4,
+  :pool_id "0x08312208119e2e30d503fd975ceb7aef14235831",
+  :token0_symbol "Kendu",
+  :token0_id "0xaa95f26e30001251fb905d264aa7b00ee9df6c18",
+  :token1_symbol "MEGA",
+  :token1_id "0xc06bf3589345a81f0c2845e4db76bdb64bbbbc9d"}
+ {:id 5,
+  :pool_id "0x083178e6adcadbda37c02c47b1101aa19878d404",
+  :token0_symbol "FUN",
+  :token0_id "0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
+  :token1_symbol "USDT",
+  :token1_id "0xdac17f958d2ee523a2206206994597c13d831ec7"}
+ {:id 6,
+  :pool_id "0x0831dbcfb136dba2839ebcc4015a745faf8e9c92",
+  :token0_symbol "OVNI",
+  :token0_id "0x8e0088861310c09343cd16cbaa9bf3f0321fcd10",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 7,
+  :pool_id "0x0834496bba64058f0702d5913c4df885b964b87a",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "EIPEIP",
+  :token1_id "0xeff3882b6c20f0ebd975a89c2698e56769f8d86c"}
+ {:id 8,
+  :pool_id "0x083865b6d78010463955c0f7424266d26c11ca95",
+  :token0_symbol "FAA",
+  :token0_id "0x9b3be3c1929afce8d8630a975d92ef2aeb787176",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 9,
+  :pool_id "0x0839d0eeedd3d83f250e24795508c97f85cf0355",
+  :token0_symbol "XIBA",
+  :token0_id "0x5e3e11b436aa399cbc55b0cc125af2efb5aa3f42",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 10,
+  :pool_id "0x083a02ce4aea75aa17c05aeec54b47b86067e7f3",
+  :token0_symbol "DINO",
+  :token0_id "0xc013a54396b1d0d9e1e630a511074129941acd5e",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 11,
+  :pool_id "0xe890321c5ccf426ebddf017b17a0ce1af3fec2dc",
+  :token0_symbol "WCAW",
+  :token0_id "0x1d5ae334d760032417691bb1e33601b08e251aee",
+  :token1_symbol "CAW",
+  :token1_id "0xf3b9569f82b18aef890de263b84189bd33ebe452"}
+ {:id 12,
+  :pool_id "0x68f5d4009f9001c8d00ced56c1e90702c998cc95",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "BBAC",
+  :token1_id "0xdba6c02329d5f84856b32f401d4c5e3009e75eb3"}
+ {:id 13,
+  :pool_id "0x5d342c10657fd352ceb4d7cd23504580b950fb2f",
+  :token0_symbol "I",
+  :token0_id "0x7c6b16b538cda7263528fe95cc8dfda7b9532897",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 14,
+  :pool_id "0xb0cdd93e28abf570265f271175b02877e89999f4",
+  :token0_symbol "buy",
+  :token0_id "0x4244ffc94e03b5aa0b4ce9897088b7ba87a61cf0",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 15,
+  :pool_id "0x9c1644ab010a8c7fe48f527683f9f3b6efd3c13e",
+  :token0_symbol "bmoney",
+  :token0_id "0xa147fa2a912c58605e630bcc268497bf7bd3971d",
+  :token1_symbol "asiandoghat",
+  :token1_id "0xb5b2a3bd99bd3be220b45dfc0c8787de25ce50a4"}
+ {:id 16,
+  :pool_id "0x280429af7a71443652d90e1f1630ea88e3d26729",
+  :token0_symbol "SANO",
+  :token0_id "0x1cf8c331aa4dd6266780d8a1610387f5f178f901",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 17,
+  :pool_id "0xacf35cc2d70b6fa4c87663979a01b6b7c515ff0d",
+  :token0_symbol "$MONG",
+  :token0_id "0x1ce270557c1f68cfb577b856766310bf8b47fd9c",
+  :token1_symbol "$HAMSTR",
+  :token1_id "0x42a43bc18a20831a6abfc551c9476eba124c03c2"}
+ {:id 18,
+  :pool_id "0x623c55ef1c942931380a240d5026af4423f9037d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ARTSTIC",
+  :token1_id "0xda765bbb587a4454789afdc953ae26b4e069b7f9"}
+ {:id 19,
+  :pool_id "0x61a6834c7928cbb03e6ac4d31b8bd1bbf2481894",
+  :token0_symbol "FIND",
+  :token0_id "0x2f9cab5e879330ac548a8ee9375c896ff37b8e0a",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 20,
+  :pool_id "0xc209e7969d2f3d264a4311a761ca56e1ba6573e5",
+  :token0_symbol "KEKE",
+  :token0_id "0x89630ac45aba6c6042a4c656eaf58739a291f5b4",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 21,
+  :pool_id "0x7045ebac8ef3d1008b8fe83dd54c11c84757be03",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "P",
+  :token1_id "0xd74d787ae497c1d091d2ec23b39a87eef1b36ef1"}
+ {:id 22,
+  :pool_id "0xbf8209255930322a02efeb2de9ccf79b3e94a00d",
+  :token0_symbol "WLFI",
+  :token0_id "0x3722359be0bfebb541bc98adfe1250cd901a706c",
+  :token1_symbol "wWLFI",
+  :token1_id "0x9d05e5bafb721e6fb24d8ab8179209be70e4dda2"}
+ {:id 23,
+  :pool_id "0xd1f3671b6856ec95cb72db521f5f3703efd3c564",
+  :token0_symbol "SAPG",
+  :token0_id "0x872411be80f2984af3ad53a23ee7e80c944c3091",
+  :token1_symbol "SAP",
+  :token1_id "0xa12a00e73e4e7174acc50a1c073e36aa0c9cb305"}
+ {:id 24,
+  :pool_id "0x99f60479da6a49d55eba34893958cdaacc710ee9",
+  :token0_symbol "X28",
+  :token0_id "0x5c47902c8c80779cb99235e42c354e53f38c3b0d",
+  :token1_symbol "TITANX",
+  :token1_id "0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1"}
+ {:id 25,
+  :pool_id "0x4e7e573617df9a27bf64fade7337a6fa16d781ff",
+  :token0_symbol "Kaizen",
+  :token0_id "0x528dfde268e44a1451ae651e807b7762844a7cde",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 26,
+  :pool_id "0x5dc3bd54ab83db355dd74147f557a761ddaf46e8",
+  :token0_symbol "TANUKI",
+  :token0_id "0x888888cfa63dad89694f55c483ecb2f3c133993c",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 27,
+  :pool_id "0xd968b1629dc99ed799e36561362ec2d71a61f437",
+  :token0_symbol "SEETHE",
+  :token0_id "0xacecd75895f1fab237ba9c76a68a961b77680572",
+  :token1_symbol "COPE",
+  :token1_id "0xcd8f2f0722166074f21f5d93ba0b1d1b87844a7b"}
+ {:id 28,
+  :pool_id "0xc026eb864dc9f9e820e010ddeeeb3c7cbaebf365",
+  :token0_symbol "PNDC",
+  :token0_id "0x423f4e6138e475d85cf7ea071ac92097ed631eea",
+  :token1_symbol "PORK",
+  :token1_id "0xb9f599ce614feb2e1bbe58f180f370d05b39344e"}
+ {:id 29,
+  :pool_id "0x681bd2418b6ed364815332d29b44693415801ed4",
+  :token0_symbol "BM",
+  :token0_id "0x85a62fb459879eded6cc58807ca8136b8a760d20",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 30,
+  :pool_id "0xb4939bbbc083f4d02ee3ec898ab9fdd1a5158b42",
+  :token0_symbol "LD0",
+  :token0_id "0x35edc0df8bdb27e1e3248066802707b1c59d2202",
+  :token1_symbol "LDO",
+  :token1_id "0x5a98fcbea516cf06857215779fd812ca3bef1b32"}
+ {:id 31,
+  :pool_id "0x25215d9ba4403b3da77ce50606b54577a71b7895",
+  :token0_symbol "DRAGONX",
+  :token0_id "0x96a5399d07896f757bd4c6ef56461f58db951862",
+  :token1_symbol "TITANX",
+  :token1_id "0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1"}
+ {:id 32,
+  :pool_id "0xf9170d7580abe92315c18765bbec404aceb7d056",
+  :token0_symbol "QP",
+  :token0_id "0x1fa3c1ece29343907bfa2ffc13c5c53c1bfceb60",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 33,
+  :pool_id "0x14d725edb1299ff560d96f42462f0234b65b00af",
+  :token0_symbol "HYPER",
+  :token0_id "0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f",
+  :token1_symbol "TITANX",
+  :token1_id "0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1"}
+ {:id 34,
+  :pool_id "0x010e3607ee6d9f43a24efe589a9fec74bba101fd",
+  :token0_symbol "HMB",
+  :token0_id "0x76165106bbcd58c88468c48907a5bc2529a5a68a",
+  :token1_symbol "HMB",
+  :token1_id "0xc3b2140ac3e95edfea220681eeca127fc81e4929"}
+ {:id 35,
+  :pool_id "0xd53d42d46775e26302ed52c280f145cc641f2dd1",
+  :token0_symbol "SDEX",
+  :token0_id "0x5de8ab7e27f6e7a1fff3e5b337584aa43961beef",
+  :token1_symbol "EDOGE",
+  :token1_id "0x8a7b7b9b2f7d0c63f66171721339705a6188a7d5"}
+ {:id 36,
+  :pool_id "0x76764f4f6afed0329e72cf6982d83f877ee9ebae",
+  :token0_symbol "XEN",
+  :token0_id "0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
+  :token1_symbol "XUSD",
+  :token1_id "0x15964cc23e13141d290da9581213b4b0879ce7d8"}
+ {:id 37,
+  :pool_id "0x357e242ef0f46421838f0fbf8ce83c3e08787a31",
+  :token0_symbol "FUSD",
+  :token0_id "0x7e17f382db614bde529f62dbe2d607f464a0af63",
+  :token1_symbol "USDH",
+  :token1_id "0xd399e8bcb8568e4eef57f9ce2e42085306647388"}
+ {:id 38,
+  :pool_id "0x68ff735a8dd19947cd9f6a9fdba08bcabcffea6e",
+  :token0_symbol "PEPE",
+  :token0_id "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+  :token1_symbol "PEPE^2",
+  :token1_id "0x7eee70b82dc4dc099d2bfed5b674cdb9a646a297"}
+ {:id 39,
+  :pool_id "0x25db8dfcf930cb170a0ad4720056b5156c0ec605",
+  :token0_symbol "SUSHI",
+  :token0_id "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+  :token1_symbol "CHAMP",
+  :token1_id "0xaa7b2e79a88beb7dfba9c78b989bd7dab01cfd3f"}
+ {:id 40,
+  :pool_id "0xf8f0ef9f6a12336a1e035adddbd634f3b0962f54",
+  :token0_symbol "DRAGONX",
+  :token0_id "0x96a5399d07896f757bd4c6ef56461f58db951862",
+  :token1_symbol "HYDRA",
+  :token1_id "0xcc7ed2ab6c3396ddbc4316d2d7c1b59ff9d2091f"}
+ {:id 41,
+  :pool_id "0x06bd1af522f43bc270203e96a019b4779195b870",
+  :token0_symbol "HVC",
+  :token0_id "0x397cc4dfb5528dc31f73f55eb738ad7aa89651a4",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 42,
+  :pool_id "0x18bb49dabec36c29af9450f420e675f46c416042",
+  :token0_symbol "OTO",
+  :token0_id "0x028ce5ea3298a50c0d8a27b937b1f48cf0d68b56",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 43,
+  :pool_id "0xf38d1e94e7f9fb8c1316ecfabc2653121a7e6680",
+  :token0_symbol "MB",
+  :token0_id "0x7d0ac226b2fe1310ab871950a4c08c4419e05b1f",
+  :token1_symbol "MX",
+  :token1_id "0x8627582d31b3dcffb8b44b20f158d5fcb6a1584e"}
+ {:id 44,
+  :pool_id "0x1e90b67149e688dfb95fd73acacd8adefd16d88d",
+  :token0_symbol "INF",
+  :token0_id "0x00f116ac0c304c570daaa68fa6c30a86a04b5c5f",
+  :token1_symbol "TITANX",
+  :token1_id "0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1"}
+ {:id 45,
+  :pool_id "0x763c4978b8536d5eb18fb846b91a2d3ae3e31b0c",
+  :token0_symbol "MORPH",
+  :token0_id "0x4687f007da484efe20d7a17e5b1d105cdbfca0eb",
+  :token1_symbol "DRAGONX",
+  :token1_id "0x96a5399d07896f757bd4c6ef56461f58db951862"}
+ {:id 46,
+  :pool_id "0x2278012e61c0fb38dae1579bd41a87a59a5954c2",
+  :token0_symbol "FLUX",
+  :token0_id "0xbfde5ac4f5adb419a931a5bf64b0f3bb5a623d06",
+  :token1_symbol "TITANX",
+  :token1_id "0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1"}
+ {:id 47,
+  :pool_id "0x76ad89d68b81affc636b4b4b23efb426f0150078",
+  :token0_symbol "BBA",
+  :token0_id "0x5633c3be7fba30f2b5f93fab29daa9a381ca8eb0",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 48,
+  :pool_id "0xad76da68a204fe301cc9b1c60f7166db73d35e76",
+  :token0_symbol "MASATO",
+  :token0_id "0x883a8108e562e19adc92932022c11ca06f4f921a",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 49,
+  :pool_id "0x058e136bc597082589d2cf5d0d021e22b6556a9c",
+  :token0_symbol "100MD",
+  :token0_id "0x53868ac71297768254883b31aadda7328b70fbe6",
+  :token1_symbol "SHIB",
+  :token1_id "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"}
+ {:id 50,
+  :pool_id "0x75d4851e18065724a89bb158d8dc80e06519a486",
+  :token0_symbol "GOAT",
+  :token0_id "0x8366ebba8c86d37ee29be3b076438f139e8042bd",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ ...)
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58789 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as core])
+nil
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 1)
+; Execution error (ClassCastException) at shamba-backend.db.core/select (core.clj:46).
+; class java.lang.Long cannot be cast to class clojure.lang.Named (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.Named is in unnamed module of loader 'app')
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58820 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10)
+; Execution error (ClassCastException) at shamba-backend.db.core/select (core.clj:46).
+; class java.lang.Long cannot be cast to class clojure.lang.Named (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.Named is in unnamed module of loader 'app')
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58835 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 3)
+; Execution error (PSQLException) at org.postgresql.core.v3.SimpleParameterList/checkAllParametersSet (SimpleParameterList.java:284).
+; No value specified for parameter 1.
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58876 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 10)
+; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2674).
+; ERROR: syntax error at or near ">"
+;   Position: 29
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58892 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 10)
+({:id 210,
+  :pool_id "0x9da4acd7d87e7396901d92671173296bf9845c53",
+  :token0_symbol "HYPER",
+  :token0_id "0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f",
+  :token1_symbol "MATRIX",
+  :token1_id "0xf2fc894381792ded27a7f08d9f0f246363cbe1ea"}
+ {:id 110,
+  :pool_id "0x0378304e50fced815abf96f30837c3c61a750c82",
+  :token0_symbol "Metti",
+  :token0_id "0x84b67e43474a403cde9aa181b02ba07399a54573",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 109,
+  :pool_id "0xf6a42a1963b34ad95bc82c8afe1cadf27b0abf2d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ETHM",
+  :token1_id "0xfd957f21bd95e723645c07c48a2d8acb8ffb3794"}
+ {:id 108,
+  :pool_id "0xb57a06451abc1f8f68387eaa001972d21f1e16d4",
+  :token0_symbol "CLNR",
+  :token0_id "0xb6e349e2649241e934f3cf13aed65047987ef992",
+  :token1_symbol "CLEANER",
+  :token1_id "0xdc28c25c345ec21c2af50d42a4fce6e8caeaa514"}
+ {:id 107,
+  :pool_id "0x3ee7b94bb059802cd9b8be4f571a4c65f73d1f01",
+  :token0_symbol "BABYPEPE",
+  :token0_id "0x5c559f3ee9a81da83e069c0093471cb05d84052a",
+  :token1_symbol "NIGGER",
+  :token1_id "0x863a0d8bfc940969087bec4e4f1824f312a21565"}
+ {:id 106,
+  :pool_id "0xc536deb8d19a3347f5ae088e3ac309cefab6db53",
+  :token0_symbol "Murakami",
+  :token0_id "0x6b251ccc81855f82195ff1f182ad4b119904cde9",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 105,
+  :pool_id "0xd691eaec48edb709a477092a10e7f9fc32d3b6eb",
+  :token0_symbol "SHIZ",
+  :token0_id "0x06e6442e063ba536787bf54926ff30fc30b23c18",
+  :token1_symbol "TREAT",
+  :token1_id "0xfbd5fd3f85e9f4c5e8b40eec9f8b8ab1caaa146b"}
+ {:id 104,
+  :pool_id "0x248823df26180700e56f632dd7fa64a4d63f9db1",
+  :token0_symbol "PEPE",
+  :token0_id "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+  :token1_symbol "SHIB",
+  :token1_id "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"}
+ {:id 103,
+  :pool_id "0xc60604a8e104940cf28f4fd9af8abb06dc50b812",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ETHM",
+  :token1_id "0xfd957f21bd95e723645c07c48a2d8acb8ffb3794"}
+ {:id 102,
+  :pool_id "0x5b044db177e07bbdb32d869810796e3a480fbb7d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "LIR",
+  :token1_id "0xe994fbfbcde6854566a21060674b0b74b8512a49"})
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58911 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 10)
+({:id 210,
+  :pool_id "0x9da4acd7d87e7396901d92671173296bf9845c53",
+  :token0_symbol "HYPER",
+  :token0_id "0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f",
+  :token1_symbol "MATRIX",
+  :token1_id "0xf2fc894381792ded27a7f08d9f0f246363cbe1ea"}
+ {:id 110,
+  :pool_id "0x0378304e50fced815abf96f30837c3c61a750c82",
+  :token0_symbol "Metti",
+  :token0_id "0x84b67e43474a403cde9aa181b02ba07399a54573",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 109,
+  :pool_id "0xf6a42a1963b34ad95bc82c8afe1cadf27b0abf2d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ETHM",
+  :token1_id "0xfd957f21bd95e723645c07c48a2d8acb8ffb3794"}
+ {:id 108,
+  :pool_id "0xb57a06451abc1f8f68387eaa001972d21f1e16d4",
+  :token0_symbol "CLNR",
+  :token0_id "0xb6e349e2649241e934f3cf13aed65047987ef992",
+  :token1_symbol "CLEANER",
+  :token1_id "0xdc28c25c345ec21c2af50d42a4fce6e8caeaa514"}
+ {:id 107,
+  :pool_id "0x3ee7b94bb059802cd9b8be4f571a4c65f73d1f01",
+  :token0_symbol "BABYPEPE",
+  :token0_id "0x5c559f3ee9a81da83e069c0093471cb05d84052a",
+  :token1_symbol "NIGGER",
+  :token1_id "0x863a0d8bfc940969087bec4e4f1824f312a21565"}
+ {:id 106,
+  :pool_id "0xc536deb8d19a3347f5ae088e3ac309cefab6db53",
+  :token0_symbol "Murakami",
+  :token0_id "0x6b251ccc81855f82195ff1f182ad4b119904cde9",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 105,
+  :pool_id "0xd691eaec48edb709a477092a10e7f9fc32d3b6eb",
+  :token0_symbol "SHIZ",
+  :token0_id "0x06e6442e063ba536787bf54926ff30fc30b23c18",
+  :token1_symbol "TREAT",
+  :token1_id "0xfbd5fd3f85e9f4c5e8b40eec9f8b8ab1caaa146b"}
+ {:id 104,
+  :pool_id "0x248823df26180700e56f632dd7fa64a4d63f9db1",
+  :token0_symbol "PEPE",
+  :token0_id "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+  :token1_symbol "SHIB",
+  :token1_id "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"}
+ {:id 103,
+  :pool_id "0xc60604a8e104940cf28f4fd9af8abb06dc50b812",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ETHM",
+  :token1_id "0xfd957f21bd95e723645c07c48a2d8acb8ffb3794"}
+ {:id 102,
+  :pool_id "0x5b044db177e07bbdb32d869810796e3a480fbb7d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "LIR",
+  :token1_id "0xe994fbfbcde6854566a21060674b0b74b8512a49"})
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 100 10)
+({:id 210,
+  :pool_id "0x9da4acd7d87e7396901d92671173296bf9845c53",
+  :token0_symbol "HYPER",
+  :token0_id "0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f",
+  :token1_symbol "MATRIX",
+  :token1_id "0xf2fc894381792ded27a7f08d9f0f246363cbe1ea"}
+ {:id 110,
+  :pool_id "0x0378304e50fced815abf96f30837c3c61a750c82",
+  :token0_symbol "Metti",
+  :token0_id "0x84b67e43474a403cde9aa181b02ba07399a54573",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 109,
+  :pool_id "0xf6a42a1963b34ad95bc82c8afe1cadf27b0abf2d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ETHM",
+  :token1_id "0xfd957f21bd95e723645c07c48a2d8acb8ffb3794"}
+ {:id 108,
+  :pool_id "0xb57a06451abc1f8f68387eaa001972d21f1e16d4",
+  :token0_symbol "CLNR",
+  :token0_id "0xb6e349e2649241e934f3cf13aed65047987ef992",
+  :token1_symbol "CLEANER",
+  :token1_id "0xdc28c25c345ec21c2af50d42a4fce6e8caeaa514"}
+ {:id 107,
+  :pool_id "0x3ee7b94bb059802cd9b8be4f571a4c65f73d1f01",
+  :token0_symbol "BABYPEPE",
+  :token0_id "0x5c559f3ee9a81da83e069c0093471cb05d84052a",
+  :token1_symbol "NIGGER",
+  :token1_id "0x863a0d8bfc940969087bec4e4f1824f312a21565"}
+ {:id 106,
+  :pool_id "0xc536deb8d19a3347f5ae088e3ac309cefab6db53",
+  :token0_symbol "Murakami",
+  :token0_id "0x6b251ccc81855f82195ff1f182ad4b119904cde9",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 105,
+  :pool_id "0xd691eaec48edb709a477092a10e7f9fc32d3b6eb",
+  :token0_symbol "SHIZ",
+  :token0_id "0x06e6442e063ba536787bf54926ff30fc30b23c18",
+  :token1_symbol "TREAT",
+  :token1_id "0xfbd5fd3f85e9f4c5e8b40eec9f8b8ab1caaa146b"}
+ {:id 104,
+  :pool_id "0x248823df26180700e56f632dd7fa64a4d63f9db1",
+  :token0_symbol "PEPE",
+  :token0_id "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+  :token1_symbol "SHIB",
+  :token1_id "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"}
+ {:id 103,
+  :pool_id "0xc60604a8e104940cf28f4fd9af8abb06dc50b812",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ETHM",
+  :token1_id "0xfd957f21bd95e723645c07c48a2d8acb8ffb3794"}
+ {:id 102,
+  :pool_id "0x5b044db177e07bbdb32d869810796e3a480fbb7d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "LIR",
+  :token1_id "0xe994fbfbcde6854566a21060674b0b74b8512a49"})
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 5)
+({:id 210,
+  :pool_id "0x9da4acd7d87e7396901d92671173296bf9845c53",
+  :token0_symbol "HYPER",
+  :token0_id "0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f",
+  :token1_symbol "MATRIX",
+  :token1_id "0xf2fc894381792ded27a7f08d9f0f246363cbe1ea"}
+ {:id 110,
+  :pool_id "0x0378304e50fced815abf96f30837c3c61a750c82",
+  :token0_symbol "Metti",
+  :token0_id "0x84b67e43474a403cde9aa181b02ba07399a54573",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 109,
+  :pool_id "0xf6a42a1963b34ad95bc82c8afe1cadf27b0abf2d",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "ETHM",
+  :token1_id "0xfd957f21bd95e723645c07c48a2d8acb8ffb3794"}
+ {:id 108,
+  :pool_id "0xb57a06451abc1f8f68387eaa001972d21f1e16d4",
+  :token0_symbol "CLNR",
+  :token0_id "0xb6e349e2649241e934f3cf13aed65047987ef992",
+  :token1_symbol "CLEANER",
+  :token1_id "0xdc28c25c345ec21c2af50d42a4fce6e8caeaa514"}
+ {:id 107,
+  :pool_id "0x3ee7b94bb059802cd9b8be4f571a4c65f73d1f01",
+  :token0_symbol "BABYPEPE",
+  :token0_id "0x5c559f3ee9a81da83e069c0093471cb05d84052a",
+  :token1_symbol "NIGGER",
+  :token1_id "0x863a0d8bfc940969087bec4e4f1824f312a21565"})
+clj꞉shamba-backend.core꞉> 
+(db/select :positions :10 5)
+; Execution error (PSQLException) at org.postgresql.jdbc.PgPreparedStatement/setObject (PgPreparedStatement.java:1005).
+; Can't infer the SQL type to use for an instance of clojure.lang.Keyword. Use setObject() with an explicit Types value to specify the type to use.
+clj꞉shamba-backend.core꞉> 
+(db/select :positions 10 5)
+({:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "X28",
+  :liquidity "518267351618512288408163690193",
+  :id 154,
+  :position_id "858809",
+  :owner "0xb2612a7ed39b52402de30e1e6387bff9a2f22c01",
+  :token0_symbol "X28",
+  :fee_tier "10000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "PNDC",
+  :liquidity "525495990628928240109752720356",
+  :id 153,
+  :position_id "919726",
+  :owner "0x9530f94c148bdd1c060dea34196d4216b06f5db9",
+  :token0_symbol "PNDC",
+  :fee_tier "10000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "PNDC",
+  :liquidity "537758553075318339005901199705",
+  :id 152,
+  :position_id "924685",
+  :owner "0xbf3f75a65904065f433201ecb0109b5747035f88",
+  :token0_symbol "PNDC",
+  :fee_tier "10000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "X28",
+  :liquidity "546988518953501914215048564185",
+  :id 151,
+  :position_id "931696",
+  :owner "0x8764633f85f18db033ae7ea4a9c9812e4020ce4f",
+  :token0_symbol "X28",
+  :fee_tier "10000"}
+ {:token1_decimal nil,
+  :token0_decimal nil,
+  :token1_symbol "PNDC",
+  :liquidity "576244022929744626872820006398",
+  :id 150,
+  :position_id "837121",
+  :owner "0x1db7c4c339cef34016a92041e10dad8b4c8c865f",
+  :token0_symbol "PNDC",
+  :fee_tier "10000"})
+clj꞉shamba-backend.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd /Users/john/Documents/developer/web/clojure/shamba-backend ; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar,+dev repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:58968 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shamba-backend.core꞉> 
+; Jack-in done.
+clj꞉shamba-backend.core꞉> 
+(require '[shamba-backend.db.core :as db])
+nil
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 10 3)
+; placeholders  10   3
+({:id 10,
+  :pool_id "0x083a02ce4aea75aa17c05aeec54b47b86067e7f3",
+  :token0_symbol "DINO",
+  :token0_id "0xc013a54396b1d0d9e1e630a511074129941acd5e",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 11,
+  :pool_id "0xe890321c5ccf426ebddf017b17a0ce1af3fec2dc",
+  :token0_symbol "WCAW",
+  :token0_id "0x1d5ae334d760032417691bb1e33601b08e251aee",
+  :token1_symbol "CAW",
+  :token1_id "0xf3b9569f82b18aef890de263b84189bd33ebe452"}
+ {:id 12,
+  :pool_id "0x68f5d4009f9001c8d00ced56c1e90702c998cc95",
+  :token0_symbol "WETH",
+  :token0_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  :token1_symbol "BBAC",
+  :token1_id "0xdba6c02329d5f84856b32f401d4c5e3009e75eb3"})
+clj꞉shamba-backend.core꞉> 
+(db/select :pools 40 5)
+; placeholders  40   5
+({:id 40,
+  :pool_id "0xf8f0ef9f6a12336a1e035adddbd634f3b0962f54",
+  :token0_symbol "DRAGONX",
+  :token0_id "0x96a5399d07896f757bd4c6ef56461f58db951862",
+  :token1_symbol "HYDRA",
+  :token1_id "0xcc7ed2ab6c3396ddbc4316d2d7c1b59ff9d2091f"}
+ {:id 41,
+  :pool_id "0x06bd1af522f43bc270203e96a019b4779195b870",
+  :token0_symbol "HVC",
+  :token0_id "0x397cc4dfb5528dc31f73f55eb738ad7aa89651a4",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 42,
+  :pool_id "0x18bb49dabec36c29af9450f420e675f46c416042",
+  :token0_symbol "OTO",
+  :token0_id "0x028ce5ea3298a50c0d8a27b937b1f48cf0d68b56",
+  :token1_symbol "WETH",
+  :token1_id "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}
+ {:id 43,
+  :pool_id "0xf38d1e94e7f9fb8c1316ecfabc2653121a7e6680",
+  :token0_symbol "MB",
+  :token0_id "0x7d0ac226b2fe1310ab871950a4c08c4419e05b1f",
+  :token1_symbol "MX",
+  :token1_id "0x8627582d31b3dcffb8b44b20f158d5fcb6a1584e"}
+ {:id 44,
+  :pool_id "0x1e90b67149e688dfb95fd73acacd8adefd16d88d",
+  :token0_symbol "INF",
+  :token0_id "0x00f116ac0c304c570daaa68fa6c30a86a04b5c5f",
+  :token1_symbol "TITANX",
+  :token1_id "0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1"})
+clj꞉shamba-backend.core꞉> 

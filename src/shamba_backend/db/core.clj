@@ -45,9 +45,12 @@
 
 (defn select
   ([table]
-   (jdbc/query -db [(str "select * from " (name table))]))
+   (jdbc/query -db [(str "SELECT * FROM " (name table))]))
   ([table fields]
-   (jdbc/query -db [(str "select " (if fields (concat-fields fields) "*") " from " (name table))])))
+   (jdbc/query -db [(str "SELECT " (if fields (concat-fields fields) "*") " FROM " (name table))]))
+  ([table last-id limit]
+   (println "placeholders " last-id " " limit)
+   (jdbc/query -db [(str "SELECT * FROM " (name table) " WHERE id >= ? ORDER BY id ASC LIMIT ? ") last-id limit])))
 
 (defn insert-pools
   [pool]
