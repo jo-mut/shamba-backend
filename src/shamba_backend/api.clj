@@ -5,23 +5,25 @@
    [cheshire.core :as json]))
 
 
-(defn save-positions-to-db
-  []
-  (let [response (uniswap/get-pools)
-        positions (-> (json/parse-string (:body response) true)
-                      :data
-                      :positions)]
-    (doseq [position positions]
-      (db/insert-positions position))))
-
 (defn save-pools-to-db
   []
-  (let [response (uniswap/get-positions)
+  (let [response (uniswap/get-pools)
         pools (-> (json/parse-string (:body response) true)
                   :data
                   :pools)]
-    (doseq [pool pools]
-      (db/insert-pools pool))))
+    (doseq [pools pools]
+      (db/insert-pools pools))))
+
+(defn save-positions-to-db
+  []
+  (let [response (uniswap/get-positions)
+        positions (-> (json/parse-string (:body response) true)
+                      :data
+                      :positions)]
+    (println "positions " positions)
+
+    (doseq [pool positions]
+      (db/insert-positions pool))))
 
 
 (defn create-tables []
@@ -30,7 +32,7 @@
 
 (defn save-uniswap-data []
   (save-pools-to-db)
-  (save-positions-to-db))
+  (println (save-positions-to-db)))
 
 (defn get-pools []
   (db/select :pools))
